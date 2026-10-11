@@ -1,0 +1,26 @@
+name: gait_alert
+description: Smart sensor network and mobile app for real-time gait alert (FSR 5 points + IMU).
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.4.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # เปิดใช้ตอนต่อ BLE จริง (ดู README.md และ lib/services/ble_sensor_service.dart)
+  # flutter_blue_plus: ^1.32.0
+  # เปิดใช้ตอนต่อ Firebase (Auth / Firestore / Storage)
+  # firebase_core: ^3.0.0
+  # firebase_auth: ^5.0.0
+  # cloud_firestore: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
